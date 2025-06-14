@@ -12,7 +12,7 @@
 - 🔒 **安全认证** - API Key 认证保护
 
 ## 🚀 快速开始
-api_key 需要 在https://promot-share.zhangyx-v.cn 注册登录后自行创建，注册登录过程需要激活码，可以邮箱联系1071050586@qq.com获取
+api_key 需要 在https://promot-share.zhangyx-v.cn 注册登录后自行创建，注册登录过程需要激活码，可以邮箱联系zhangyx-vip@foxmail.com获取
 ### 方式一：NPX 直接运行 (推荐)
 
 ```bash
