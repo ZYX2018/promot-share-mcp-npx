@@ -13,48 +13,7 @@
 
 ## 🚀 快速开始
 api_key 需要 在https://promot-share.zhangyx-v.cn 注册登录后自行创建，注册登录过程需要激活码，可以邮箱联系zhangyx-vip@foxmail.com获取
-### 方式一：NPX 直接运行 (推荐)
 
-```bash
-# 设置环境变量
-export PROMOT_SHARE_API_URL="https://promot-share.zhangyx-v.cn"
-export API_KEY="your_api_key_here"
-
-# 直接运行
-npx @zhangyx-v/promot-share-mcp-server
-```
-
-### 方式二：本地安装
-
-```bash
-# 全局安装
-npm install -g @zhangyx-v/promot-share-mcp-server
-
-# 运行
-promot-share-mcp
-```
-
-## ⚙️ 配置
-
-创建 `.env` 文件配置服务器信息：
-
-```bash
-# 必需：Promot Share API 地址
-PROMOT_SHARE_API_URL=https://promot-share.zhangyx-v.cn
-# 或本地开发: http://localhost:3000
-
-# 必需：API 认证密钥 (会作为 Authorization: Bearer 发送)
-API_KEY=your_api_key_here
-
-# 可选：额外的用户令牌 (通常不需要)
-# USER_TOKEN=your_user_token_here
-
-# 可选：调试模式
-DEBUG=true
-
-# 可选：请求超时时间 (毫秒)
-REQUEST_TIMEOUT=30000
-```
 
 ## 🔧 Cursor IDE 配置
 
@@ -96,7 +55,7 @@ REQUEST_TIMEOUT=30000
 
 ## 🛠️ 可用工具
 
-### 🔍 search_prompts - 智能搜索
+### 🔍 search_prompts - 根据需求描述搜索最相关的提示词
 根据需求描述搜索最相关的提示词
 
 **参数：**
@@ -141,11 +100,7 @@ REQUEST_TIMEOUT=30000
 - `content` (必需) - 评论内容
 - `rating` (可选) - 评分 1-5
 
-### 📂 list_categories - 获取分类
-获取所有可用的提示词分类
 
-### ⭐ get_user_favorites - 获取收藏
-获取用户收藏的提示词列表
 
 ## 📂 支持的分类
 
@@ -161,26 +116,6 @@ REQUEST_TIMEOUT=30000
 - 🌐 **语言翻译** - `language`
 - 💰 **金融投资** - `finance`, `doctor`
 - 🎵 **创意娱乐** - `music`, `industry`, `social`
-
-## 🔧 开发
-
-```bash
-# 克隆项目
-git clone <repo-url>
-cd promot-share-mcp-npx
-
-# 安装依赖
-npm install
-
-# 开发模式运行
-npm run dev
-
-# 构建
-npm run build
-
-# 发布
-npm publish
-```
 
 ## 🐛 故障排除
 
@@ -207,8 +142,3 @@ MIT License
 
 欢迎提交 Issue 和 Pull Request！
 
-## 🔗 相关链接
-
-- [Promot Share 主项目](https://github.com/your-org/promot-share)
-- [MCP 协议文档](https://modelcontextprotocol.io/)
-- [Cursor IDE](https://cursor.sh/) 
